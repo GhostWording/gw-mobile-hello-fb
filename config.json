@@ -43,9 +43,9 @@
     "fetchPerDay": 8,
     "showPerDay": 8,
     "containerPaths": [
-      "cvd/fbfriend/dinerblanc/small",
-      "cvd/fbfriend/stock/small",
-      "cvd/fbfriend/stockanimals/small"
+      "/cvd/fbfriend/dinerblanc/small",
+      "/cvd/fbfriend/stock/small",
+      "/cvd/fbfriend/stockanimals/small"
     ],
     "containerWeights": [
       0.5,
