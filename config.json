@@ -1,17 +1,17 @@
 {
   "app": {
-    "name": "gw-mobile-hello-mum",
+    "name": "gw-mobile-hello-fb",
     "version": "1.9.0",
-    "description": "GhostWording Hello Mum Mobile Application",
+    "description": "GhostWording Hello Facebook Mobile Application",
     "regional": {
       "en": {
-        "appName": "Hello Mum"
+        "appName": "Hello Facebook"
       },
       "fr": {
-        "appName": "Comment vas-tu ?"
+        "appName": "Hello Facebook"
       },
       "es": {
-        "appName": "¡Hola Mamá!"
+        "appName": "¡Hello Facebook!"
       }
     },
     "analytics": {
@@ -43,12 +43,14 @@
     "fetchPerDay": 8,
     "showPerDay": 8,
     "containerPaths": [
-      "/mum/kittens/small",
-      "/mum/puppies/small"
+      "cvd/fbfriend/dinerblanc/small",
+      "cvd/fbfriend/stock/small",
+      "cvd/fbfriend/stockanimals/small"
     ],
     "containerWeights": [
-      0.6,
-      0.4
+      0.5,
+      0.25,
+      0.25
     ],
     "heightFactor": 0.55,
     "swipeHint": {
