@@ -15,7 +15,7 @@ Create Application (layer 1)
 ----------------------------
 
 ```sh
-ionic start gw-mobile-hello-mum blank -i com.ghostwording.hellomum
+ionic start gw-mobile-hello-fb blank -i com.ghostwording.hellofb
 ```
 > the first parameter should match the application repo name  
 > the last parameter is the bundle identifier of the application on the android/ios store(s)
@@ -24,7 +24,7 @@ Install Mobile Platform (layer 2)
 ---------------------------------
 
 ```sh
-cd gw-mobile-hello-mum 
+cd gw-mobile-hello-fb 
 git init
 git remote add origin git@github.com:GhostWording/gw-mobile-platform.git
 git fetch origin
@@ -37,7 +37,7 @@ Install Application Code (layer 3)
 ```sh
 rm -r -f .git
 git init
-git remote add origin git@github.com:GhostWording/gw-mobile-hello-mum.git
+git remote add origin git@github.com:GhostWording/gw-mobile-hello-fb.git
 git fetch origin
 git reset --hard origin/master
 ```
